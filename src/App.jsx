@@ -7,10 +7,10 @@ function App() {
   const [count, setCount] = useState(0)
 
   const addValue = () => {
-    setCount((count) => count + 1)
-    setCount((count) => count + 1)
-    setCount((count) => count + 1)
-    setCount((count) => count + 1)
+    setCount((count) => count + 2)
+    setCount((count) => count + 2)
+    setCount((count) => count + 2)
+    setCount((count) => count + 2)
   }
   const removeVal = () => {
     if(count > 0){
